@@ -54,25 +54,25 @@
       <tr bgcolor="#ffffd0">
         <td style="padding:20px;width:25%;vertical-align:middle">
           <div class="one">
-            <div class="two" id='zipnerf_image'>
-            ADD<img src='images/zipnerf.jpg' width="160">
+            <div class="two" id='wasatch-image'>
+            <img src='images/wasatch-image.png' width="160">
           </div>
         </td>
         <td style="padding:20px;width:75%;vertical-align:middle">
-          ADD<a href="http://josh-monto.info/wasatch-forests">
+          ADD<a href="https://www.wasatch-forests.us">
             <span class="papertitle">Forest Species Segmentation in Aerial Imagery of Wasatch Mountains Using 3D Convolutional Neural Network</span>
           </a>
           <br>
-          <strong>Joshua Stapley Montoya</strong>,
+          <strong>Joshua James Stapley Montoya</strong>
           <br>
           2023
           <br>
-          <a href="http://josh-monto.github.io/wasatch-forests">project page</a>
+          <a href="http://josh-monto.github.io/data/wasatch-forests.pdf">implementation details</a>
           /
-          <a href="https://wasatch-forests.us">segmented map</a>
+          <a href="https://www.wasatch-forests.us">segmented map</a>
           <p></p>
           <p>
-          Trained 3D CNN on self-labeled partial ground truth data, with a average prediction accuracy on unseen images (also self-labeled) of 77 percent. Project is ongoing.
+          Aerial imagery of the Wasatch Mountains was downloaded from the United States Geological Survey (USGS) <a href="https://earthexplorer.usgs.gov/">EarthExplorer</a> portal, taken as part of the National Agriculture Imagery Program (NAIP). Partial ground truth images were created using 6 of the images: 3 for training, 3 for testing. A 3D CNN model was trained using Hyperspectral Imaging (HSI) Cubes. Pixel classification accuracies on the 3 unseen test images were 84, 74, and 73 percent. Using this model, all 144 images in the dataset were segmented. A zoomable map containing all of this imagery can be found at <a href="https://www.wasatch-forests.us">this link</a>. Project is ongoing.
           </p>
         </td>
       </tr>

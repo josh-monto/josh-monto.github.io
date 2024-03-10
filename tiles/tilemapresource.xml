@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+            <TileMap version="1.0.0" tilemapservice="http://tms.osgeo.org/1.0.0">
+              <Title>predictions.vrt</Title>
+              <Abstract></Abstract>
+              <SRS>EPSG:900913</SRS>
+              <BoundingBox minx="39.68173146362096" miny="-112.06939883005711" maxx="41.56958479620741" maxy="-111.36621040315757"/>
+              <Origin x="39.68173146362096" y="-112.06939883005711"/>
+              <TileFormat width="256" height="256" mime-type="image/png" extension="png"/>
+              <TileSets profile="mercator">
+                <TileSet href="3" units-per-pixel="19567.87923750000118" order="3"/>
+        <TileSet href="4" units-per-pixel="9783.93961875000059" order="4"/>
+      </TileSets>
+        </TileMap>
+        
